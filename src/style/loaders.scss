@@ -1,0 +1,9 @@
+.content-loader {
+    font-size: 2em;
+    color: #5c5c5c;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+        color: black
+    }
+}

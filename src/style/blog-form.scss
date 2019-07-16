@@ -1,0 +1,23 @@
+.blog-form-wrapper {
+    @include base-grid();
+    grid-template-columns: 1fr;
+    padding: 42px;
+
+    @include input-element();
+    input {
+        margin-bottom: 0px;
+    }
+
+    .image-uploaders {}
+
+    .select-element {
+        border: 1px solid #ccc;
+        font-size: 0.8rem;
+        width: 100%;
+        border-radius: 3px;
+        overflow: hidden;
+        background-color: transparent;
+        outline: none;
+        
+    }
+}
